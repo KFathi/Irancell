@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="تنظیمات شماره پشتیبان" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefIsBackupNO"
+            android:summary="فعال سازی امکان ارسال پیامک" >
+        </CheckBoxPreference>
+        <EditTextPreference
+            android:key="prefBackupNO"
+            android:positiveButtonText="ثبت"
+            android:negativeButtonText="انصراف"
+            android:dialogTitle="شماره موبایل پشتیبان"
+            android:summary="برای موبایل پشتیبان اینجارا لمس نمایید" />
+	</PreferenceCategory>
+    <PreferenceCategory android:title="تنظیمات موبایل یاب " >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefIsSmsFormat"
+            android:summary="فعال سازی امکان موبایل یاب" >
+        </CheckBoxPreference>
+        <EditTextPreference
+            android:key="prefSmsFormat"
+            android:positiveButtonText="ثبت"
+            android:negativeButtonText="انصراف"
+            android:dialogTitle="فرمت پیامک موبایل یاب"
+            android:summary="برای فرمت پیامک موبایل یاب اینجارا لمس نمایید" />
+        <!--
+        <ListPreference
+            android:key="prefSyncFrequency"
+            android:entries="@array/syncFrequency"
+            android:summary="frequency summary"
+            android:entryValues="@array/syncFrequencyValues"
+            android:title="list summary title" />
+        -->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="تنظیمات هشدار ناشناس" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefIsAlarm"
+            android:summary="فعال سازی امکان هشدار دهی" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+	
+</PreferenceScreen>
+<!--
+     android:dialogLayout="@layout/yourlayout"
+           android:dialogTitle="Dialog Title"
+            android:dialogMessage="Dialog summary"
+            android:key="preference_key"
+            android:title="Preference Title"
+            android:summary="Preference summary"
+            android:defaultValue="Default Value"
+-->

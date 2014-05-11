@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LostFinder</string>
+    <string name="action_settings">Settings1</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sim_serialnumber">SIM Serial</string>
+    <string name="sms2Backup">پیامک به پشتیبان</string>
+    <string name="mobile_finderSMS">پیامک موبایل یاب</string>
+	<string name="alert_dialog_cancel">cancle</string>
+	<string name="alert_dialog_ok">قطع هشدار</string>
+	<string name="alert_dialog_two_buttons_title">موبایل شما به حالت صدادار بازگشت،برای توقف هشدار کلید زیر را لمس نمایید</string>
+        
+</resources>

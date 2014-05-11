@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+		     <com.hoor.lostfinder.LostDialgPreference 
+	            android:dependency="prefBackupNO"
+	            android:key="prefDialog"
+	            android:persistent="false"
+	            android:title="ثبت اطلاعات" />  
+</PreferenceScreen>

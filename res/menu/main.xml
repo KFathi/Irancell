@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/phone_number" android:title="@string/phone_number" android:showAsAction="never" android:orderInCategory="100"></item>
+	<item android:id="@+id/sim_serialnumber" android:title="@string/sim_serialnumber" android:showAsAction="never" android:orderInCategory="100"></item>
+</menu>
